@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-labelledby="t">
+  <title id="t">Ilustración de una maceta autorriego</title>
+  <rect width="300" height="300" fill="#e7f0f5"/>
+  <ellipse cx="150" cy="268" rx="95" ry="10" fill="#000" opacity=".08"/>
+  <rect x="85" y="110" width="130" height="140" rx="14" fill="#f4f4f1" stroke="#c8c8c0" stroke-width="3"/>
+  <rect x="95" y="200" width="110" height="40" rx="8" fill="#7fb7d9" opacity=".6"/>
+  <path d="M95 210 Q120 202 150 210 T205 210" stroke="#4f93c0" stroke-width="3" fill="none"/>
+  <rect x="190" y="120" width="12" height="70" rx="6" fill="#d8d8d0"/>
+  <rect x="193" y="160" width="6" height="28" rx="3" fill="#4f93c0"/>
+</svg>

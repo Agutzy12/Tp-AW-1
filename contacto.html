@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Escribinos tus consultas sobre plantas, pedidos o asesoramiento de jardinería.">
+  <title>Contacto | Vivero Brotes</title>
+  <link rel="icon" href="img/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&amp;family=Nunito+Sans:wght@400;600;700&amp;display=swap">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <a class="salto" href="#contenido">Saltar al contenido principal</a>
+
+  <header class="encabezado">
+    <div class="encabezado__contenido contenedor">
+      <a class="marca" href="index.html">
+        <img class="marca__logo" src="img/logo.svg" alt="" width="40" height="40">
+        <span class="marca__nombre">Vivero Brotes</span>
+      </a>
+
+      <button class="encabezado__boton-menu" type="button" data-boton-menu aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menú">
+        <svg class="icono" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+
+      <nav class="nav" id="menu-principal" aria-label="Navegación principal">
+        <ul class="nav__lista">
+          <li class="nav__item"><a class="nav__enlace" href="index.html">Inicio</a></li>
+          <li class="nav__item"><a class="nav__enlace" href="catalogo.html">Catálogo</a></li>
+          <li class="nav__item"><a class="nav__enlace" href="index.html#nosotros">Nosotros</a></li>
+          <li class="nav__item"><a class="nav__enlace nav__enlace--activo" href="contacto.html" aria-current="page">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <button class="encabezado__carrito" type="button" data-abrir-carrito aria-controls="carrito" aria-expanded="false" aria-label="Abrir carrito">
+        <svg class="icono" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 4h2l2.4 11.2a2 2 0 0 0 2 1.6h7.8a2 2 0 0 0 2-1.5L21 8H6.2M10 20.5h.01M17 20.5h.01" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span class="encabezado__contador" data-contador-carrito hidden>0</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="contenido" class="contenedor">
+    <header class="cabecera-pagina">
+      <h1 class="cabecera-pagina__titulo">Contacto</h1>
+      <p class="cabecera-pagina__bajada">¿Tenés dudas sobre una planta, querés hacer un pedido grande o necesitás ayuda para armar tu jardín? Escribinos.</p>
+    </header>
+
+    <div class="contacto">
+      <section class="tarjeta contacto__formulario" aria-labelledby="formulario-titulo">
+        <h2 class="tarjeta__titulo" id="formulario-titulo">Envianos tu consulta</h2>
+        <p class="formulario__nota">Los campos marcados con <span aria-hidden="true">*</span><span class="visualmente-oculto">asterisco</span> son obligatorios.</p>
+
+        <form class="formulario" id="formulario-contacto" novalidate>
+          <div class="formulario__fila">
+            <div class="campo">
+              <label class="campo__etiqueta" for="nombre">Nombre y apellido <span class="campo__obligatorio" aria-hidden="true">*</span></label>
+              <input class="campo__control" type="text" id="nombre" name="nombre" autocomplete="name" required aria-describedby="error-nombre">
+              <p class="campo__error" id="error-nombre"></p>
+            </div>
+
+            <div class="campo">
+              <label class="campo__etiqueta" for="email">Email <span class="campo__obligatorio" aria-hidden="true">*</span></label>
+              <input class="campo__control" type="email" id="email" name="email" autocomplete="email" required aria-describedby="error-email">
+              <p class="campo__error" id="error-email"></p>
+            </div>
+          </div>
+
+          <div class="formulario__fila">
+            <div class="campo">
+              <label class="campo__etiqueta" for="telefono">Teléfono <span class="campo__opcional">(opcional)</span></label>
+              <input class="campo__control" type="tel" id="telefono" name="telefono" autocomplete="tel" inputmode="tel" aria-describedby="error-telefono">
+              <p class="campo__error" id="error-telefono"></p>
+            </div>
+
+            <div class="campo">
+              <label class="campo__etiqueta" for="motivo">Motivo <span class="campo__obligatorio" aria-hidden="true">*</span></label>
+              <select class="campo__control" id="motivo" name="motivo" required aria-describedby="error-motivo">
+                <option value="">Elegí una opción</option>
+                <option value="consulta">Consulta sobre una planta</option>
+                <option value="pedido">Pedido mayorista o para eventos</option>
+                <option value="paisajismo">Asesoramiento de paisajismo</option>
+                <option value="reclamo">Problema con un pedido</option>
+                <option value="otro">Otro</option>
+              </select>
+              <p class="campo__error" id="error-motivo"></p>
+            </div>
+          </div>
+
+          <div class="campo">
+            <label class="campo__etiqueta" for="producto">Producto de interés <span class="campo__opcional">(opcional)</span></label>
+            <select class="campo__control" id="producto" name="producto">
+              <option value="">Ninguno en particular</option>
+            </select>
+          </div>
+
+          <div class="campo">
+            <label class="campo__etiqueta" for="mensaje">Mensaje <span class="campo__obligatorio" aria-hidden="true">*</span></label>
+            <textarea class="campo__control campo__control--area" id="mensaje" name="mensaje" rows="5" required aria-describedby="contador-mensaje error-mensaje"></textarea>
+            <p class="campo__ayuda" id="contador-mensaje">0 / 500 caracteres</p>
+            <p class="campo__error" id="error-mensaje"></p>
+          </div>
+
+          <div class="campo">
+            <label class="casilla">
+              <input class="casilla__input" type="checkbox" id="privacidad" name="privacidad" required aria-describedby="error-privacidad">
+              <span>Acepto que Vivero Brotes use mis datos solo para responder esta consulta. <span class="campo__obligatorio" aria-hidden="true">*</span></span>
+            </label>
+            <p class="campo__error" id="error-privacidad"></p>
+          </div>
+
+          <button class="boton boton--primario" type="submit">Enviar consulta</button>
+        </form>
+
+        <div class="notificacion notificacion--exito" id="contacto-exito" role="status" hidden>
+          <svg class="notificacion__icono" viewBox="0 0 48 48" aria-hidden="true" focusable="false"><circle cx="24" cy="24" r="22" fill="currentColor"/><path d="M14 25l7 7 13-15" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <h2 class="notificacion__titulo" id="contacto-exito-titulo" tabindex="-1">¡Gracias! Recibimos tu consulta</h2>
+          <p class="notificacion__texto" id="contacto-exito-texto"></p>
+          <div class="notificacion__acciones">
+            <button class="boton boton--secundario" type="button" data-nueva-consulta>Enviar otra consulta</button>
+            <a class="boton boton--primario" href="catalogo.html">Ir al catálogo</a>
+          </div>
+        </div>
+      </section>
+
+      <aside class="contacto__info" aria-labelledby="info-titulo">
+        <h2 class="contacto__info-titulo" id="info-titulo">Otras formas de contacto</h2>
+        <dl class="datos-contacto">
+          <dt>Dirección</dt>
+          <dd>Av. de las Plantas 1234, Córdoba Capital</dd>
+          <dt>Teléfono y WhatsApp</dt>
+          <dd><a href="tel:+543510000000">+54 351 000-0000</a></dd>
+          <dt>Email</dt>
+          <dd><a href="mailto:hola@viverobrotes.com.ar">hola@viverobrotes.com.ar</a></dd>
+          <dt>Horarios</dt>
+          <dd>Lunes a viernes de 9 a 19 h<br>Sábados de 9 a 14 h</dd>
+        </dl>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="pie">
+    <div class="pie__contenido contenedor">
+      <section class="pie__bloque" aria-labelledby="pie-marca">
+        <h2 class="pie__titulo" id="pie-marca">Vivero Brotes</h2>
+        <p class="pie__texto">Plantas, macetas e insumos para tu casa y tu jardín desde 2012.</p>
+      </section>
+
+      <section class="pie__bloque" aria-labelledby="pie-visitanos">
+        <h2 class="pie__titulo" id="pie-visitanos">Visitanos</h2>
+        <address class="pie__texto">
+          Av. de las Plantas 1234, Córdoba Capital<br>
+          <a class="pie__enlace" href="tel:+543510000000">+54 351 000-0000</a><br>
+          <a class="pie__enlace" href="mailto:hola@viverobrotes.com.ar">hola@viverobrotes.com.ar</a>
+        </address>
+      </section>
+
+      <section class="pie__bloque" aria-labelledby="pie-horarios">
+        <h2 class="pie__titulo" id="pie-horarios">Horarios</h2>
+        <p class="pie__texto">Lunes a viernes de 9 a 19 h<br>Sábados de 9 a 14 h</p>
+      </section>
+
+      <nav class="pie__bloque" aria-label="Enlaces del pie">
+        <h2 class="pie__titulo">Navegación</h2>
+        <ul class="pie__lista">
+          <li><a class="pie__enlace" href="catalogo.html">Catálogo</a></li>
+          <li><a class="pie__enlace" href="checkout.html">Mi carrito</a></li>
+          <li><a class="pie__enlace" href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+    <p class="pie__legal">&copy; 2026 Vivero Brotes. Proyecto académico de Aplicaciones Web 1.</p>
+  </footer>
+
+  <div class="carrito-fondo" data-fondo-carrito hidden></div>
+  <aside class="carrito" id="carrito" role="dialog" aria-modal="true" aria-labelledby="carrito-titulo" data-zona-foco tabindex="-1" hidden>
+    <div class="carrito__cabecera">
+      <h2 class="carrito__titulo" id="carrito-titulo">Tu carrito</h2>
+      <button class="carrito__cerrar" type="button" data-cerrar-carrito aria-label="Cerrar carrito">
+        <svg class="icono" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+
+    <ul class="carrito__lista" data-carrito-lista aria-label="Productos en el carrito"></ul>
+
+    <div class="carrito__vacio" data-carrito-vacio>
+      <img src="img/productos/maceta-barro.svg" alt="" width="120" height="120">
+      <p>Tu carrito está vacío.</p>
+      <a class="boton boton--secundario" href="catalogo.html">Ver catálogo</a>
+    </div>
+
+    <div class="carrito__pie" data-carrito-pie hidden>
+      <p class="carrito__subtotal">Subtotal <strong data-carrito-total>$ 0</strong></p>
+      <p class="carrito__nota">El envío se calcula al finalizar la compra.</p>
+      <a class="boton boton--primario boton--bloque" href="checkout.html">Finalizar compra</a>
+      <button class="boton boton--texto" type="button" data-vaciar-carrito>Vaciar carrito</button>
+    </div>
+  </aside>
+
+  <p class="aviso-flotante" data-aviso-flotante role="status" aria-live="polite"></p>
+  <script type="module" src="js/pages/contacto.js"></script>
+</body>
+</html>

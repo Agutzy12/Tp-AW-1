@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-labelledby="t">
+  <title id="t">Ilustración de un fertilizante orgánico</title>
+  <rect width="300" height="300" fill="#f1efe2"/>
+  <ellipse cx="150" cy="268" rx="95" ry="10" fill="#000" opacity=".08"/>
+  <rect x="125" y="60" width="50" height="30" rx="6" fill="#2f6b3a"/>
+  <path d="M115 90 L185 90 Q205 110 205 140 L205 245 Q205 252 198 252 L102 252 Q95 252 95 245 L95 140 Q95 110 115 90 Z" fill="#c9a76a"/>
+  <rect x="105" y="150" width="90" height="70" rx="6" fill="#fbf7ee"/>
+  <g transform="translate(135 205) rotate(-20)">
+    <path d="M0 0 C14 -12.0 14 -30.0 0 -40 C-14 -30.0 -14 -12.0 0 0 Z" fill="#3f7d4a"/>
+    <path d="M0 0 L0 -36.800000000000004" stroke="#ffffff" stroke-opacity=".35" stroke-width="2"/>
+  </g>
+  <g transform="translate(165 205) rotate(20)">
+    <path d="M0 0 C14 -12.0 14 -30.0 0 -40 C-14 -30.0 -14 -12.0 0 0 Z" fill="#7fb069"/>
+    <path d="M0 0 L0 -36.800000000000004" stroke="#ffffff" stroke-opacity=".35" stroke-width="2"/>
+  </g>
+</svg>

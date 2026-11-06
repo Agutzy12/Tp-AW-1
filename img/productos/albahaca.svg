@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-labelledby="t">
+  <title id="t">Ilustración de una planta de albahaca</title>
+  <rect width="300" height="300" fill="#f2f5e6"/>
+  <ellipse cx="150" cy="268" rx="95" ry="10" fill="#000" opacity=".08"/>
+  <path d="M150 195 Q160.0 145.0 150 95" stroke="#285c33" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <g transform="translate(150 100) rotate(0)">
+    <path d="M0 0 C26 -12.0 26 -30.0 0 -40 C-26 -30.0 -26 -12.0 0 0 Z" fill="#4f9a4a"/>
+    <path d="M0 0 L0 -36.800000000000004" stroke="#ffffff" stroke-opacity=".35" stroke-width="2"/>
+  </g>
+  <g transform="translate(140 120) rotate(-60)">
+    <path d="M0 0 C26 -12.0 26 -30.0 0 -40 C-26 -30.0 -26 -12.0 0 0 Z" fill="#4f9a4a"/>
+    <path d="M0 0 L0 -36.800000000000004" stroke="#ffffff" stroke-opacity=".35" stroke-width="2"/>
+  </g>
+  <g transform="translate(160 120) rotate(60)">
+    <path d="M0 0 C26 -12.0 26 -30.0 0 -40 C-26 -30.0 -26 -12.0 0 0 Z" fill="#4f9a4a"/>
+    <path d="M0 0 L0 -36.800000000000004" stroke="#ffffff" stroke-opacity=".35" stroke-width="2"/>
+  </g>
+  <g transform="translate(138 150) rotate(-75)">
+    <path d="M0 0 C26 -12.0 26 -30.0 0 -40 C-26 -30.0 -26 -12.0 0 0 Z" fill="#4f9a4a"/>
+    <path d="M0 0 L0 -36.800000000000004" stroke="#ffffff" stroke-opacity=".35" stroke-width="2"/>
+  </g>
+  <g transform="translate(162 150) rotate(75)">
+    <path d="M0 0 C26 -12.0 26 -30.0 0 -40 C-26 -30.0 -26 -12.0 0 0 Z" fill="#4f9a4a"/>
+    <path d="M0 0 L0 -36.800000000000004" stroke="#ffffff" stroke-opacity=".35" stroke-width="2"/>
+  </g>
+  <g transform="translate(145 175) rotate(-85)">
+    <path d="M0 0 C26 -12.0 26 -30.0 0 -40 C-26 -30.0 -26 -12.0 0 0 Z" fill="#4f9a4a"/>
+    <path d="M0 0 L0 -36.800000000000004" stroke="#ffffff" stroke-opacity=".35" stroke-width="2"/>
+  </g>
+  <g transform="translate(155 175) rotate(85)">
+    <path d="M0 0 C26 -12.0 26 -30.0 0 -40 C-26 -30.0 -26 -12.0 0 0 Z" fill="#4f9a4a"/>
+    <path d="M0 0 L0 -36.800000000000004" stroke="#ffffff" stroke-opacity=".35" stroke-width="2"/>
+  </g>
+  <rect x="92.0" y="190" width="116" height="18" rx="4" fill="#a85d2c"/>
+  <path d="M100.0 208 L200.0 208 L186.0 260 L114.0 260 Z" fill="#c8743a"/>
+</svg>

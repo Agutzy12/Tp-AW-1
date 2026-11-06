@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-labelledby="t">
+  <title id="t">Ilustración de un cactus San Pedro</title>
+  <rect width="300" height="300" fill="#f6ead9"/>
+  <ellipse cx="150" cy="268" rx="95" ry="10" fill="#000" opacity=".08"/>
+  <rect x="130" y="60" width="40" height="140" rx="20" fill="#5f9a5f"/>
+  <path d="M130 140 L105 140 Q95 140 95 130 L95 100 Q95 88 105 88 Q115 88 115 100 L115 122 L130 122 Z" fill="#5f9a5f"/>
+  <path d="M170 120 L193 120 Q203 120 203 110 L203 85 Q203 73 193 73 Q183 73 183 85 L183 104 L170 104 Z" fill="#5f9a5f"/>
+  <path d="M150 66 L150 195 M140 72 L140 192 M160 72 L160 192" stroke="#4a7f4a" stroke-width="2"/>
+  <circle cx="150" cy="58" r="8" fill="#e98aa8"/>
+  <rect x="87.0" y="185" width="126" height="18" rx="4" fill="#a85d2c"/>
+  <path d="M95.0 203 L205.0 203 L189.6 265 L110.4 265 Z" fill="#c8743a"/>
+</svg>

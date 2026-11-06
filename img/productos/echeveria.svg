@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-labelledby="t">
+  <title id="t">Ilustración de una echeveria</title>
+  <rect width="300" height="300" fill="#f7ece6"/>
+  <ellipse cx="150" cy="268" rx="95" ry="10" fill="#000" opacity=".08"/>
+  <rect x="92.0" y="190" width="116" height="18" rx="4" fill="#a85d2c"/>
+  <path d="M100.0 208 L200.0 208 L186.0 260 L114.0 260 Z" fill="#c8743a"/>
+  <g transform="translate(150 175) rotate(0.0)"><ellipse cx="0" cy="-38.5" rx="19.6" ry="38.5" fill="#8fb8a6" stroke="#d98ca0" stroke-width="1.5"/></g>
+  <g transform="translate(150 175) rotate(36.0)"><ellipse cx="0" cy="-38.5" rx="19.6" ry="38.5" fill="#8fb8a6" stroke="#d98ca0" stroke-width="1.5"/></g>
+  <g transform="translate(150 175) rotate(72.0)"><ellipse cx="0" cy="-38.5" rx="19.6" ry="38.5" fill="#8fb8a6" stroke="#d98ca0" stroke-width="1.5"/></g>
+  <g transform="translate(150 175) rotate(108.0)"><ellipse cx="0" cy="-38.5" rx="19.6" ry="38.5" fill="#8fb8a6" stroke="#d98ca0" stroke-width="1.5"/></g>
+  <g transform="translate(150 175) rotate(144.0)"><ellipse cx="0" cy="-38.5" rx="19.6" ry="38.5" fill="#8fb8a6" stroke="#d98ca0" stroke-width="1.5"/></g>
+  <g transform="translate(150 175) rotate(180.0)"><ellipse cx="0" cy="-38.5" rx="19.6" ry="38.5" fill="#8fb8a6" stroke="#d98ca0" stroke-width="1.5"/></g>
+  <g transform="translate(150 175) rotate(216.0)"><ellipse cx="0" cy="-38.5" rx="19.6" ry="38.5" fill="#8fb8a6" stroke="#d98ca0" stroke-width="1.5"/></g>
+  <g transform="translate(150 175) rotate(252.0)"><ellipse cx="0" cy="-38.5" rx="19.6" ry="38.5" fill="#8fb8a6" stroke="#d98ca0" stroke-width="1.5"/></g>
+  <g transform="translate(150 175) rotate(288.0)"><ellipse cx="0" cy="-38.5" rx="19.6" ry="38.5" fill="#8fb8a6" stroke="#d98ca0" stroke-width="1.5"/></g>
+  <g transform="translate(150 175) rotate(324.0)"><ellipse cx="0" cy="-38.5" rx="19.6" ry="38.5" fill="#8fb8a6" stroke="#d98ca0" stroke-width="1.5"/></g>
+  <g transform="translate(150 175) rotate(15.0)"><ellipse cx="0" cy="-30.250000000000004" rx="15.400000000000002" ry="30.250000000000004" fill="#a5c8b6" stroke="#d98ca0" stroke-width="1.5"/></g>
+  <g transform="translate(150 175) rotate(55.0)"><ellipse cx="0" cy="-30.250000000000004" rx="15.400000000000002" ry="30.250000000000004" fill="#a5c8b6" stroke="#d98ca0" stroke-width="1.5"/></g>
+  <g transform="translate(150 175) rotate(95.0)"><ellipse cx="0" cy="-30.250000000000004" rx="15.400000000000002" ry="30.250000000000004" fill="#a5c8b6" stroke="#d98ca0" stroke-width="1.5"/></g>
+  <g transform="translate(150 175) rotate(135.0)"><ellipse cx="0" cy="-30.250000000000004" rx="15.400000000000002" ry="30.250000000000004" fill="#a5c8b6" stroke="#d98ca0" stroke-width="1.5"/></g>
+  <g transform="translate(150 175) rotate(175.0)"><ellipse cx="0" cy="-30.250000000000004" rx="15.400000000000002" ry="30.250000000000004" fill="#a5c8b6" stroke="#d98ca0" stroke-width="1.5"/></g>
+  <g transform="translate(150 175) rotate(215.0)"><ellipse cx="0" cy="-30.250000000000004" rx="15.400000000000002" ry="30.250000000000004" fill="#a5c8b6" stroke="#d98ca0" stroke-width="1.5"/></g>
+  <g transform="translate(150 175) rotate(255.0)"><ellipse cx="0" cy="-30.250000000000004" rx="15.400000000000002" ry="30.250000000000004" fill="#a5c8b6" stroke="#d98ca0" stroke-width="1.5"/></g>
+  <g transform="translate(150 175) rotate(295.0)"><ellipse cx="0" cy="-30.250000000000004" rx="15.400000000000002" ry="30.250000000000004" fill="#a5c8b6" stroke="#d98ca0" stroke-width="1.5"/></g>
+  <g transform="translate(150 175) rotate(335.0)"><ellipse cx="0" cy="-30.250000000000004" rx="15.400000000000002" ry="30.250000000000004" fill="#a5c8b6" stroke="#d98ca0" stroke-width="1.5"/></g>
+  <g transform="translate(150 175) rotate(30.0)"><ellipse cx="0" cy="-20.900000000000002" rx="10.64" ry="20.900000000000002" fill="#bdd9c8" stroke="#d98ca0" stroke-width="1.5"/></g>
+  <g transform="translate(150 175) rotate(75.0)"><ellipse cx="0" cy="-20.900000000000002" rx="10.64" ry="20.900000000000002" fill="#bdd9c8" stroke="#d98ca0" stroke-width="1.5"/></g>
+  <g transform="translate(150 175) rotate(120.0)"><ellipse cx="0" cy="-20.900000000000002" rx="10.64" ry="20.900000000000002" fill="#bdd9c8" stroke="#d98ca0" stroke-width="1.5"/></g>
+  <g transform="translate(150 175) rotate(165.0)"><ellipse cx="0" cy="-20.900000000000002" rx="10.64" ry="20.900000000000002" fill="#bdd9c8" stroke="#d98ca0" stroke-width="1.5"/></g>
+  <g transform="translate(150 175) rotate(210.0)"><ellipse cx="0" cy="-20.900000000000002" rx="10.64" ry="20.900000000000002" fill="#bdd9c8" stroke="#d98ca0" stroke-width="1.5"/></g>
+  <g transform="translate(150 175) rotate(255.0)"><ellipse cx="0" cy="-20.900000000000002" rx="10.64" ry="20.900000000000002" fill="#bdd9c8" stroke="#d98ca0" stroke-width="1.5"/></g>
+  <g transform="translate(150 175) rotate(300.0)"><ellipse cx="0" cy="-20.900000000000002" rx="10.64" ry="20.900000000000002" fill="#bdd9c8" stroke="#d98ca0" stroke-width="1.5"/></g>
+  <g transform="translate(150 175) rotate(345.0)"><ellipse cx="0" cy="-20.900000000000002" rx="10.64" ry="20.900000000000002" fill="#bdd9c8" stroke="#d98ca0" stroke-width="1.5"/></g>
+  <g transform="translate(150 175) rotate(45.0)"><ellipse cx="0" cy="-11.0" rx="5.6000000000000005" ry="11.0" fill="#d2e8da" stroke="#d98ca0" stroke-width="1.5"/></g>
+  <g transform="translate(150 175) rotate(105.0)"><ellipse cx="0" cy="-11.0" rx="5.6000000000000005" ry="11.0" fill="#d2e8da" stroke="#d98ca0" stroke-width="1.5"/></g>
+  <g transform="translate(150 175) rotate(165.0)"><ellipse cx="0" cy="-11.0" rx="5.6000000000000005" ry="11.0" fill="#d2e8da" stroke="#d98ca0" stroke-width="1.5"/></g>
+  <g transform="translate(150 175) rotate(225.0)"><ellipse cx="0" cy="-11.0" rx="5.6000000000000005" ry="11.0" fill="#d2e8da" stroke="#d98ca0" stroke-width="1.5"/></g>
+  <g transform="translate(150 175) rotate(285.0)"><ellipse cx="0" cy="-11.0" rx="5.6000000000000005" ry="11.0" fill="#d2e8da" stroke="#d98ca0" stroke-width="1.5"/></g>
+  <g transform="translate(150 175) rotate(345.0)"><ellipse cx="0" cy="-11.0" rx="5.6000000000000005" ry="11.0" fill="#d2e8da" stroke="#d98ca0" stroke-width="1.5"/></g>
+</svg>

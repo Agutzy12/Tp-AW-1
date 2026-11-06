@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-labelledby="t">
+  <title id="t">Ilustración de un potus colgante</title>
+  <rect width="300" height="300" fill="#f3efe2"/>
+  <ellipse cx="150" cy="268" rx="95" ry="10" fill="#000" opacity=".08"/>
+  <rect x="92.0" y="120" width="116" height="18" rx="4" fill="#d9c9a5"/>
+  <path d="M100.0 138 L200.0 138 L186.0 190 L114.0 190 Z" fill="#f1e7d0"/>
+  <path d="M110 140 L92 166 L86 192 L80 218 L74 244 L68 270" stroke="#285c33" stroke-width="3" fill="none"/>
+  <g transform="translate(92 166) rotate(-110)">
+    <path d="M0 0 C16 -7.8 16 -19.5 0 -26 C-16 -19.5 -16 -7.8 0 0 Z" fill="#3f7d4a"/>
+  </g>
+  <g transform="translate(86 192) rotate(-70)">
+    <path d="M0 0 C16 -7.8 16 -19.5 0 -26 C-16 -19.5 -16 -7.8 0 0 Z" fill="#7fb069"/>
+  </g>
+  <g transform="translate(80 218) rotate(-110)">
+    <path d="M0 0 C16 -7.8 16 -19.5 0 -26 C-16 -19.5 -16 -7.8 0 0 Z" fill="#3f7d4a"/>
+  </g>
+  <g transform="translate(74 244) rotate(-70)">
+    <path d="M0 0 C16 -7.8 16 -19.5 0 -26 C-16 -19.5 -16 -7.8 0 0 Z" fill="#7fb069"/>
+  </g>
+  <g transform="translate(68 270) rotate(-110)">
+    <path d="M0 0 C16 -7.8 16 -19.5 0 -26 C-16 -19.5 -16 -7.8 0 0 Z" fill="#3f7d4a"/>
+  </g>
+  <path d="M190 140 L208 166 L214 192 L220 218 L226 244 L232 270" stroke="#285c33" stroke-width="3" fill="none"/>
+  <g transform="translate(208 166) rotate(70)">
+    <path d="M0 0 C16 -7.8 16 -19.5 0 -26 C-16 -19.5 -16 -7.8 0 0 Z" fill="#3f7d4a"/>
+  </g>
+  <g transform="translate(214 192) rotate(110)">
+    <path d="M0 0 C16 -7.8 16 -19.5 0 -26 C-16 -19.5 -16 -7.8 0 0 Z" fill="#7fb069"/>
+  </g>
+  <g transform="translate(220 218) rotate(70)">
+    <path d="M0 0 C16 -7.8 16 -19.5 0 -26 C-16 -19.5 -16 -7.8 0 0 Z" fill="#3f7d4a"/>
+  </g>
+  <g transform="translate(226 244) rotate(110)">
+    <path d="M0 0 C16 -7.8 16 -19.5 0 -26 C-16 -19.5 -16 -7.8 0 0 Z" fill="#7fb069"/>
+  </g>
+  <g transform="translate(232 270) rotate(70)">
+    <path d="M0 0 C16 -7.8 16 -19.5 0 -26 C-16 -19.5 -16 -7.8 0 0 Z" fill="#3f7d4a"/>
+  </g>
+  <g transform="translate(150 125) rotate(-50)">
+    <path d="M0 0 C22 -12.0 22 -30.0 0 -40 C-22 -30.0 -22 -12.0 0 0 Z" fill="#7fb069"/>
+    <path d="M0 0 L0 -36.800000000000004" stroke="#ffffff" stroke-opacity=".35" stroke-width="2"/>
+  </g>
+  <g transform="translate(150 125) rotate(-20)">
+    <path d="M0 0 C22 -12.0 22 -30.0 0 -40 C-22 -30.0 -22 -12.0 0 0 Z" fill="#7fb069"/>
+    <path d="M0 0 L0 -36.800000000000004" stroke="#ffffff" stroke-opacity=".35" stroke-width="2"/>
+  </g>
+  <g transform="translate(150 125) rotate(10)">
+    <path d="M0 0 C22 -12.0 22 -30.0 0 -40 C-22 -30.0 -22 -12.0 0 0 Z" fill="#7fb069"/>
+    <path d="M0 0 L0 -36.800000000000004" stroke="#ffffff" stroke-opacity=".35" stroke-width="2"/>
+  </g>
+  <g transform="translate(150 125) rotate(40)">
+    <path d="M0 0 C22 -12.0 22 -30.0 0 -40 C-22 -30.0 -22 -12.0 0 0 Z" fill="#7fb069"/>
+    <path d="M0 0 L0 -36.800000000000004" stroke="#ffffff" stroke-opacity=".35" stroke-width="2"/>
+  </g>
+</svg>

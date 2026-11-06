@@ -1,0 +1,22 @@
+/*
+  Hoja de estilos principal de Vivero Brotes.
+
+  Organización:
+    base.css        → variables, reset y estilos de elementos HTML
+    layout.css      → estructura general: encabezado, navegación, pie, contenedores
+    componentes.css → piezas reutilizables: botones, formularios, tarjetas, carrito…
+    paginas.css     → estilos propios de cada página
+
+  Nomenclatura: BEM (Bloque__Elemento--Modificador), en español.
+    Ej.: .producto, .producto__nombre, .producto--agotado
+
+  Diseño "mobile first": los estilos base son para celulares (desde 320px)
+  y las media queries agregan cambios para pantallas más grandes:
+    @media (min-width: 600px)  → celulares grandes y tablets
+    @media (min-width: 900px)  → tablets horizontales, notebooks y escritorio
+*/
+
+@import url("base.css");
+@import url("layout.css");
+@import url("componentes.css");
+@import url("paginas.css");

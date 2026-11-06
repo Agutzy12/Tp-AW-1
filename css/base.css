@@ -1,0 +1,172 @@
+/* ==========================================================================
+   BASE: variables de diseño, reset y elementos HTML
+   ========================================================================== */
+
+:root {
+  /* Colores */
+  --color-fondo: #f7f4ec;
+  --color-superficie: #ffffff;
+  --color-superficie-alterna: #eef2e6;
+  --color-texto: #1f2a1f;
+  --color-texto-suave: #4f5b4a;
+  --color-primario: #2f6b3a;
+  --color-primario-oscuro: #1f4d28;
+  --color-primario-claro: #dcead3;
+  --color-acento: #b4612a;
+  --color-acento-claro: #f6e2d2;
+  --color-borde: #d9d3c3;
+  --color-error: #b3261e;
+  --color-error-claro: #fbe9e7;
+  --color-aviso: #8a5a00;
+  --color-aviso-claro: #fdf1d8;
+
+  /* Tipografía */
+  --fuente-titulos: "Fraunces", Georgia, "Times New Roman", serif;
+  --fuente-texto: "Nunito Sans", "Segoe UI", Roboto, Arial, sans-serif;
+  --texto-chico: 0.875rem;
+  --texto-base: 1rem;
+  --texto-grande: 1.125rem;
+  --titulo-3: 1.25rem;
+  --titulo-2: clamp(1.5rem, 1.2rem + 1.2vw, 2rem);
+  --titulo-1: clamp(2rem, 1.4rem + 2.6vw, 3.25rem);
+
+  /* Espaciados (escala de 4px) */
+  --espacio-1: 0.25rem;
+  --espacio-2: 0.5rem;
+  --espacio-3: 0.75rem;
+  --espacio-4: 1rem;
+  --espacio-5: 1.5rem;
+  --espacio-6: 2rem;
+  --espacio-7: 3rem;
+  --espacio-8: 4rem;
+
+  /* Otros */
+  --radio-chico: 8px;
+  --radio: 14px;
+  --radio-grande: 24px;
+  --sombra: 0 2px 10px rgba(31, 42, 31, 0.08);
+  --sombra-elevada: 0 12px 32px rgba(31, 42, 31, 0.18);
+  --ancho-maximo: 1200px;
+  --alto-encabezado: 4.25rem;
+  --transicion: 180ms ease;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--alto-encabezado) + var(--espacio-4));
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+  font-family: var(--fuente-texto);
+  font-size: var(--texto-base);
+  line-height: 1.6;
+}
+
+body.sin-scroll {
+  overflow: hidden;
+}
+
+main {
+  flex: 1;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0 0 var(--espacio-3);
+  font-family: var(--fuente-titulos);
+  line-height: 1.2;
+  color: var(--color-primario-oscuro);
+}
+
+p {
+  margin: 0 0 var(--espacio-4);
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: var(--color-primario);
+}
+
+a:hover {
+  color: var(--color-primario-oscuro);
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+address {
+  font-style: normal;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+/* Foco visible para quienes navegan con teclado */
+:focus-visible {
+  outline: 3px solid var(--color-acento);
+  outline-offset: 2px;
+}
+
+/* Texto solo para lectores de pantalla */
+.visualmente-oculto {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.icono {
+  width: 1.5rem;
+  height: 1.5rem;
+  flex-shrink: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

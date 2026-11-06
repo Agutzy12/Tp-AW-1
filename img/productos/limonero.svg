@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-labelledby="t">
+  <title id="t">Ilustración de un limonero en maceta</title>
+  <rect width="300" height="300" fill="#f5f1df"/>
+  <ellipse cx="150" cy="268" rx="95" ry="10" fill="#000" opacity=".08"/>
+  <path d="M150 200 L150 120" stroke="#7a5536" stroke-width="9"/>
+  <circle cx="150" cy="95" r="62" fill="#3f7d4a"/>
+  <circle cx="115" cy="110" r="35" fill="#285c33"/>
+  <circle cx="188" cy="108" r="32" fill="#285c33"/>
+  <ellipse cx="125" cy="80" rx="10" ry="8" fill="#f2d14b"/>
+  <ellipse cx="170" cy="70" rx="10" ry="8" fill="#f2d14b"/>
+  <ellipse cx="150" cy="115" rx="10" ry="8" fill="#f2d14b"/>
+  <ellipse cx="190" cy="120" rx="10" ry="8" fill="#f2d14b"/>
+  <ellipse cx="110" cy="120" rx="10" ry="8" fill="#f2d14b"/>
+  <ellipse cx="140" cy="60" rx="10" ry="8" fill="#f2d14b"/>
+  <rect x="82.0" y="195" width="136" height="18" rx="4" fill="#7c3d23"/>
+  <path d="M90.0 213 L210.0 213 L193.2 260 L106.80000000000001 260 Z" fill="#9b4f2f"/>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-labelledby="t">
+  <title id="t">Ilustración de un jazmín estrella</title>
+  <rect width="300" height="300" fill="#e8efe4"/>
+  <ellipse cx="150" cy="268" rx="95" ry="10" fill="#000" opacity=".08"/>
+  <rect x="80" y="40" width="140" height="150" fill="none" stroke="#b38b5d" stroke-width="5"/>
+  <path d="M80 90 H220 M80 140 H220 M127 40 V190 M173 40 V190" stroke="#b38b5d" stroke-width="3"/>
+  <g transform="translate(95 170) rotate(-30)">
+    <path d="M0 0 C12 -7.8 12 -19.5 0 -26 C-12 -19.5 -12 -7.8 0 0 Z" fill="#285c33"/>
+  </g>
+  <g transform="translate(110 130) rotate(20)">
+    <path d="M0 0 C12 -7.8 12 -19.5 0 -26 C-12 -19.5 -12 -7.8 0 0 Z" fill="#285c33"/>
+  </g>
+  <g transform="translate(100 85) rotate(-20)">
+    <path d="M0 0 C12 -7.8 12 -19.5 0 -26 C-12 -19.5 -12 -7.8 0 0 Z" fill="#285c33"/>
+  </g>
+  <g transform="translate(140 60) rotate(60)">
+    <path d="M0 0 C12 -7.8 12 -19.5 0 -26 C-12 -19.5 -12 -7.8 0 0 Z" fill="#285c33"/>
+  </g>
+  <g transform="translate(170 100) rotate(-40)">
+    <path d="M0 0 C12 -7.8 12 -19.5 0 -26 C-12 -19.5 -12 -7.8 0 0 Z" fill="#285c33"/>
+  </g>
+  <g transform="translate(200 70) rotate(30)">
+    <path d="M0 0 C12 -7.8 12 -19.5 0 -26 C-12 -19.5 -12 -7.8 0 0 Z" fill="#285c33"/>
+  </g>
+  <g transform="translate(205 130) rotate(-20)">
+    <path d="M0 0 C12 -7.8 12 -19.5 0 -26 C-12 -19.5 -12 -7.8 0 0 Z" fill="#285c33"/>
+  </g>
+  <g transform="translate(185 165) rotate(40)">
+    <path d="M0 0 C12 -7.8 12 -19.5 0 -26 C-12 -19.5 -12 -7.8 0 0 Z" fill="#285c33"/>
+  </g>
+  <g transform="translate(130 160) rotate(10)">
+    <path d="M0 0 C12 -7.8 12 -19.5 0 -26 C-12 -19.5 -12 -7.8 0 0 Z" fill="#285c33"/>
+  </g>
+  <g transform="translate(115 100)"><ellipse cx="0" cy="-7" rx="3.5" ry="7" fill="#ffffff" transform="rotate(0)"/><ellipse cx="0" cy="-7" rx="3.5" ry="7" fill="#ffffff" transform="rotate(72)"/><ellipse cx="0" cy="-7" rx="3.5" ry="7" fill="#ffffff" transform="rotate(144)"/><ellipse cx="0" cy="-7" rx="3.5" ry="7" fill="#ffffff" transform="rotate(216)"/><ellipse cx="0" cy="-7" rx="3.5" ry="7" fill="#ffffff" transform="rotate(288)"/><circle r="2.5" fill="#f2d06b"/></g>
+  <g transform="translate(160 70)"><ellipse cx="0" cy="-7" rx="3.5" ry="7" fill="#ffffff" transform="rotate(0)"/><ellipse cx="0" cy="-7" rx="3.5" ry="7" fill="#ffffff" transform="rotate(72)"/><ellipse cx="0" cy="-7" rx="3.5" ry="7" fill="#ffffff" transform="rotate(144)"/><ellipse cx="0" cy="-7" rx="3.5" ry="7" fill="#ffffff" transform="rotate(216)"/><ellipse cx="0" cy="-7" rx="3.5" ry="7" fill="#ffffff" transform="rotate(288)"/><circle r="2.5" fill="#f2d06b"/></g>
+  <g transform="translate(195 110)"><ellipse cx="0" cy="-7" rx="3.5" ry="7" fill="#ffffff" transform="rotate(0)"/><ellipse cx="0" cy="-7" rx="3.5" ry="7" fill="#ffffff" transform="rotate(72)"/><ellipse cx="0" cy="-7" rx="3.5" ry="7" fill="#ffffff" transform="rotate(144)"/><ellipse cx="0" cy="-7" rx="3.5" ry="7" fill="#ffffff" transform="rotate(216)"/><ellipse cx="0" cy="-7" rx="3.5" ry="7" fill="#ffffff" transform="rotate(288)"/><circle r="2.5" fill="#f2d06b"/></g>
+  <g transform="translate(150 140)"><ellipse cx="0" cy="-7" rx="3.5" ry="7" fill="#ffffff" transform="rotate(0)"/><ellipse cx="0" cy="-7" rx="3.5" ry="7" fill="#ffffff" transform="rotate(72)"/><ellipse cx="0" cy="-7" rx="3.5" ry="7" fill="#ffffff" transform="rotate(144)"/><ellipse cx="0" cy="-7" rx="3.5" ry="7" fill="#ffffff" transform="rotate(216)"/><ellipse cx="0" cy="-7" rx="3.5" ry="7" fill="#ffffff" transform="rotate(288)"/><circle r="2.5" fill="#f2d06b"/></g>
+  <g transform="translate(120 160)"><ellipse cx="0" cy="-7" rx="3.5" ry="7" fill="#ffffff" transform="rotate(0)"/><ellipse cx="0" cy="-7" rx="3.5" ry="7" fill="#ffffff" transform="rotate(72)"/><ellipse cx="0" cy="-7" rx="3.5" ry="7" fill="#ffffff" transform="rotate(144)"/><ellipse cx="0" cy="-7" rx="3.5" ry="7" fill="#ffffff" transform="rotate(216)"/><ellipse cx="0" cy="-7" rx="3.5" ry="7" fill="#ffffff" transform="rotate(288)"/><circle r="2.5" fill="#f2d06b"/></g>
+  <g transform="translate(210 160)"><ellipse cx="0" cy="-7" rx="3.5" ry="7" fill="#ffffff" transform="rotate(0)"/><ellipse cx="0" cy="-7" rx="3.5" ry="7" fill="#ffffff" transform="rotate(72)"/><ellipse cx="0" cy="-7" rx="3.5" ry="7" fill="#ffffff" transform="rotate(144)"/><ellipse cx="0" cy="-7" rx="3.5" ry="7" fill="#ffffff" transform="rotate(216)"/><ellipse cx="0" cy="-7" rx="3.5" ry="7" fill="#ffffff" transform="rotate(288)"/><circle r="2.5" fill="#f2d06b"/></g>
+  <g transform="translate(95 60)"><ellipse cx="0" cy="-7" rx="3.5" ry="7" fill="#ffffff" transform="rotate(0)"/><ellipse cx="0" cy="-7" rx="3.5" ry="7" fill="#ffffff" transform="rotate(72)"/><ellipse cx="0" cy="-7" rx="3.5" ry="7" fill="#ffffff" transform="rotate(144)"/><ellipse cx="0" cy="-7" rx="3.5" ry="7" fill="#ffffff" transform="rotate(216)"/><ellipse cx="0" cy="-7" rx="3.5" ry="7" fill="#ffffff" transform="rotate(288)"/><circle r="2.5" fill="#f2d06b"/></g>
+  <rect x="92.0" y="195" width="116" height="18" rx="4" fill="#6d4630"/>
+  <path d="M100.0 213 L200.0 213 L186.0 260 L114.0 260 Z" fill="#8b5a3c"/>
+</svg>

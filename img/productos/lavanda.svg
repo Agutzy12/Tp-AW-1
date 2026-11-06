@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-labelledby="t">
+  <title id="t">Ilustración de una planta de lavanda</title>
+  <rect width="300" height="300" fill="#f1edf7"/>
+  <ellipse cx="150" cy="268" rx="95" ry="10" fill="#000" opacity=".08"/>
+  <g transform="translate(150 195) rotate(-36)"><path d="M0 0 L0 -130" stroke="#7fb069" stroke-width="3"/><ellipse cx="0" cy="-100" rx="6" ry="5" fill="#a58ad6"/><ellipse cx="0" cy="-108" rx="6" ry="5" fill="#8a6fbf"/><ellipse cx="0" cy="-116" rx="6" ry="5" fill="#a58ad6"/><ellipse cx="0" cy="-124" rx="6" ry="5" fill="#8a6fbf"/><ellipse cx="0" cy="-132" rx="6" ry="5" fill="#a58ad6"/></g>
+  <g transform="translate(150 195) rotate(-24)"><path d="M0 0 L0 -130" stroke="#7fb069" stroke-width="3"/><ellipse cx="0" cy="-100" rx="6" ry="5" fill="#a58ad6"/><ellipse cx="0" cy="-108" rx="6" ry="5" fill="#8a6fbf"/><ellipse cx="0" cy="-116" rx="6" ry="5" fill="#a58ad6"/><ellipse cx="0" cy="-124" rx="6" ry="5" fill="#8a6fbf"/><ellipse cx="0" cy="-132" rx="6" ry="5" fill="#a58ad6"/></g>
+  <g transform="translate(150 195) rotate(-12)"><path d="M0 0 L0 -130" stroke="#7fb069" stroke-width="3"/><ellipse cx="0" cy="-100" rx="6" ry="5" fill="#a58ad6"/><ellipse cx="0" cy="-108" rx="6" ry="5" fill="#8a6fbf"/><ellipse cx="0" cy="-116" rx="6" ry="5" fill="#a58ad6"/><ellipse cx="0" cy="-124" rx="6" ry="5" fill="#8a6fbf"/><ellipse cx="0" cy="-132" rx="6" ry="5" fill="#a58ad6"/></g>
+  <g transform="translate(150 195) rotate(0)"><path d="M0 0 L0 -130" stroke="#7fb069" stroke-width="3"/><ellipse cx="0" cy="-100" rx="6" ry="5" fill="#a58ad6"/><ellipse cx="0" cy="-108" rx="6" ry="5" fill="#8a6fbf"/><ellipse cx="0" cy="-116" rx="6" ry="5" fill="#a58ad6"/><ellipse cx="0" cy="-124" rx="6" ry="5" fill="#8a6fbf"/><ellipse cx="0" cy="-132" rx="6" ry="5" fill="#a58ad6"/></g>
+  <g transform="translate(150 195) rotate(12)"><path d="M0 0 L0 -130" stroke="#7fb069" stroke-width="3"/><ellipse cx="0" cy="-100" rx="6" ry="5" fill="#a58ad6"/><ellipse cx="0" cy="-108" rx="6" ry="5" fill="#8a6fbf"/><ellipse cx="0" cy="-116" rx="6" ry="5" fill="#a58ad6"/><ellipse cx="0" cy="-124" rx="6" ry="5" fill="#8a6fbf"/><ellipse cx="0" cy="-132" rx="6" ry="5" fill="#a58ad6"/></g>
+  <g transform="translate(150 195) rotate(24)"><path d="M0 0 L0 -130" stroke="#7fb069" stroke-width="3"/><ellipse cx="0" cy="-100" rx="6" ry="5" fill="#a58ad6"/><ellipse cx="0" cy="-108" rx="6" ry="5" fill="#8a6fbf"/><ellipse cx="0" cy="-116" rx="6" ry="5" fill="#a58ad6"/><ellipse cx="0" cy="-124" rx="6" ry="5" fill="#8a6fbf"/><ellipse cx="0" cy="-132" rx="6" ry="5" fill="#a58ad6"/></g>
+  <g transform="translate(150 195) rotate(36)"><path d="M0 0 L0 -130" stroke="#7fb069" stroke-width="3"/><ellipse cx="0" cy="-100" rx="6" ry="5" fill="#a58ad6"/><ellipse cx="0" cy="-108" rx="6" ry="5" fill="#8a6fbf"/><ellipse cx="0" cy="-116" rx="6" ry="5" fill="#a58ad6"/><ellipse cx="0" cy="-124" rx="6" ry="5" fill="#8a6fbf"/><ellipse cx="0" cy="-132" rx="6" ry="5" fill="#a58ad6"/></g>
+  <g transform="translate(150 195) rotate(-50)">
+    <path d="M0 0 C6 -15.0 6 -37.5 0 -50 C-6 -37.5 -6 -15.0 0 0 Z" fill="#8fae86"/>
+  </g>
+  <g transform="translate(150 195) rotate(-25)">
+    <path d="M0 0 C6 -15.0 6 -37.5 0 -50 C-6 -37.5 -6 -15.0 0 0 Z" fill="#8fae86"/>
+  </g>
+  <g transform="translate(150 195) rotate(25)">
+    <path d="M0 0 C6 -15.0 6 -37.5 0 -50 C-6 -37.5 -6 -15.0 0 0 Z" fill="#8fae86"/>
+  </g>
+  <g transform="translate(150 195) rotate(50)">
+    <path d="M0 0 C6 -15.0 6 -37.5 0 -50 C-6 -37.5 -6 -15.0 0 0 Z" fill="#8fae86"/>
+  </g>
+  <rect x="87.0" y="185" width="126" height="18" rx="4" fill="#a85d2c"/>
+  <path d="M95.0 203 L205.0 203 L189.6 265 L110.4 265 Z" fill="#c8743a"/>
+</svg>

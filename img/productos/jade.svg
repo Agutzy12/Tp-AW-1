@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-labelledby="t">
+  <title id="t">Ilustración de un árbol de jade</title>
+  <rect width="300" height="300" fill="#eaf0e8"/>
+  <ellipse cx="150" cy="268" rx="95" ry="10" fill="#000" opacity=".08"/>
+  <path d="M150 195 L150 120 M150 150 L120 115 M150 140 L182 105" stroke="#8a6a46" stroke-width="7" stroke-linecap="round"/>
+  <ellipse cx="110" cy="105" rx="15" ry="10" fill="#6aa36b" stroke="#c76a6a" stroke-width="1.5"/>
+  <ellipse cx="125" cy="95" rx="15" ry="10" fill="#6aa36b" stroke="#c76a6a" stroke-width="1.5"/>
+  <ellipse cx="100" cy="120" rx="15" ry="10" fill="#6aa36b" stroke="#c76a6a" stroke-width="1.5"/>
+  <ellipse cx="172" cy="95" rx="15" ry="10" fill="#6aa36b" stroke="#c76a6a" stroke-width="1.5"/>
+  <ellipse cx="190" cy="88" rx="15" ry="10" fill="#6aa36b" stroke="#c76a6a" stroke-width="1.5"/>
+  <ellipse cx="195" cy="108" rx="15" ry="10" fill="#6aa36b" stroke="#c76a6a" stroke-width="1.5"/>
+  <ellipse cx="150" cy="108" rx="15" ry="10" fill="#6aa36b" stroke="#c76a6a" stroke-width="1.5"/>
+  <ellipse cx="140" cy="95" rx="15" ry="10" fill="#6aa36b" stroke="#c76a6a" stroke-width="1.5"/>
+  <ellipse cx="160" cy="92" rx="15" ry="10" fill="#6aa36b" stroke="#c76a6a" stroke-width="1.5"/>
+  <ellipse cx="150" cy="80" rx="15" ry="10" fill="#6aa36b" stroke="#c76a6a" stroke-width="1.5"/>
+  <rect x="87.0" y="185" width="126" height="18" rx="4" fill="#2b4253"/>
+  <path d="M95.0 203 L205.0 203 L189.6 265 L110.4 265 Z" fill="#3c5a6e"/>
+</svg>

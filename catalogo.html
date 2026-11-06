@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Catálogo de plantas, macetas e insumos de Vivero Brotes con filtros por categoría, luz y precio.">
+  <title>Catálogo | Vivero Brotes</title>
+  <link rel="icon" href="img/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&amp;family=Nunito+Sans:wght@400;600;700&amp;display=swap">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <a class="salto" href="#contenido">Saltar al contenido principal</a>
+
+  <header class="encabezado">
+    <div class="encabezado__contenido contenedor">
+      <a class="marca" href="index.html">
+        <img class="marca__logo" src="img/logo.svg" alt="" width="40" height="40">
+        <span class="marca__nombre">Vivero Brotes</span>
+      </a>
+
+      <button class="encabezado__boton-menu" type="button" data-boton-menu aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menú">
+        <svg class="icono" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+
+      <nav class="nav" id="menu-principal" aria-label="Navegación principal">
+        <ul class="nav__lista">
+          <li class="nav__item"><a class="nav__enlace" href="index.html">Inicio</a></li>
+          <li class="nav__item"><a class="nav__enlace nav__enlace--activo" href="catalogo.html" aria-current="page">Catálogo</a></li>
+          <li class="nav__item"><a class="nav__enlace" href="index.html#nosotros">Nosotros</a></li>
+          <li class="nav__item"><a class="nav__enlace" href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <button class="encabezado__carrito" type="button" data-abrir-carrito aria-controls="carrito" aria-expanded="false" aria-label="Abrir carrito">
+        <svg class="icono" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 4h2l2.4 11.2a2 2 0 0 0 2 1.6h7.8a2 2 0 0 0 2-1.5L21 8H6.2M10 20.5h.01M17 20.5h.01" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span class="encabezado__contador" data-contador-carrito hidden>0</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="contenido" class="contenedor">
+    <header class="cabecera-pagina">
+      <h1 class="cabecera-pagina__titulo">Catálogo</h1>
+      <p class="cabecera-pagina__bajada">Encontrá la planta ideal para tu espacio. Usá los filtros para ver solo lo que buscás.</p>
+    </header>
+
+    <div class="catalogo">
+      <form class="filtros" id="filtros" role="search" aria-label="Filtrar productos">
+        <div class="campo">
+          <label class="campo__etiqueta" for="busqueda">Buscar</label>
+          <input class="campo__control" type="search" id="busqueda" name="busqueda" placeholder="Ej.: lavanda, maceta…" autocomplete="off">
+        </div>
+
+        <fieldset class="filtros__grupo">
+          <legend class="campo__etiqueta">Categoría</legend>
+          <div class="chips">
+            <label class="chip"><input class="chip__input" type="radio" name="categoria" value="todas" checked><span class="chip__texto">Todas</span></label>
+            <label class="chip"><input class="chip__input" type="radio" name="categoria" value="interior"><span class="chip__texto">Interior</span></label>
+            <label class="chip"><input class="chip__input" type="radio" name="categoria" value="exterior"><span class="chip__texto">Exterior</span></label>
+            <label class="chip"><input class="chip__input" type="radio" name="categoria" value="suculentas"><span class="chip__texto">Suculentas</span></label>
+            <label class="chip"><input class="chip__input" type="radio" name="categoria" value="aromaticas"><span class="chip__texto">Aromáticas</span></label>
+            <label class="chip"><input class="chip__input" type="radio" name="categoria" value="macetas"><span class="chip__texto">Macetas</span></label>
+            <label class="chip"><input class="chip__input" type="radio" name="categoria" value="insumos"><span class="chip__texto">Insumos</span></label>
+          </div>
+        </fieldset>
+
+        <button class="filtros__alternar" type="button" data-alternar-filtros aria-expanded="false" aria-controls="filtros-extra">
+          Más filtros
+        </button>
+
+        <div class="filtros__extra" id="filtros-extra">
+          <div class="campo">
+            <label class="campo__etiqueta" for="luz">Luz que recibe tu espacio</label>
+            <select class="campo__control" id="luz" name="luz">
+              <option value="todas">Cualquiera</option>
+              <option value="sol">Sol pleno</option>
+              <option value="media-sombra">Media sombra</option>
+              <option value="sombra">Sombra</option>
+            </select>
+          </div>
+
+          <div class="campo">
+            <label class="campo__etiqueta" for="precio-maximo">Precio máximo</label>
+            <input class="campo__rango" type="range" id="precio-maximo" name="precio-maximo" min="0" max="50000" step="500" value="50000" aria-describedby="salida-precio">
+            <output class="campo__ayuda" id="salida-precio" for="precio-maximo">Hasta $ 50.000</output>
+          </div>
+
+          <div class="campo">
+            <label class="campo__etiqueta" for="orden">Ordenar por</label>
+            <select class="campo__control" id="orden" name="orden">
+              <option value="destacados">Destacados</option>
+              <option value="precio-asc">Menor precio</option>
+              <option value="precio-desc">Mayor precio</option>
+              <option value="nombre">Nombre (A-Z)</option>
+            </select>
+          </div>
+
+          <label class="casilla">
+            <input class="casilla__input" type="checkbox" name="solo-stock">
+            <span>Solo productos con stock</span>
+          </label>
+        </div>
+
+        <button class="boton boton--texto" type="reset">Limpiar filtros</button>
+      </form>
+
+      <section class="catalogo__resultados" aria-labelledby="resultados-titulo">
+        <h2 class="visualmente-oculto" id="resultados-titulo">Productos</h2>
+        <p class="catalogo__contador" id="contador-resultados" role="status" aria-live="polite"></p>
+
+        <div class="estado" data-estado="cargando">
+          <span class="estado__spinner" aria-hidden="true"></span>
+          <p>Cargando productos…</p>
+        </div>
+
+        <div class="estado estado--error" data-estado="error" role="alert" hidden>
+          <h3 class="estado__titulo">No pudimos cargar el catálogo</h3>
+          <p>Revisá tu conexión e intentá de nuevo.</p>
+          <button class="boton boton--secundario" type="button" data-reintentar>Reintentar</button>
+        </div>
+
+        <div class="estado" data-estado="vacio" hidden>
+          <img src="img/productos/maceta-barro.svg" alt="" width="120" height="120">
+          <h3 class="estado__titulo">No encontramos productos con esos filtros</h3>
+          <p>Probá con otra búsqueda o quitá algunos filtros.</p>
+          <button class="boton boton--secundario" type="button" data-limpiar-filtros>Limpiar filtros</button>
+        </div>
+
+        <div class="grilla-productos" id="grilla-productos" hidden></div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="pie">
+    <div class="pie__contenido contenedor">
+      <section class="pie__bloque" aria-labelledby="pie-marca">
+        <h2 class="pie__titulo" id="pie-marca">Vivero Brotes</h2>
+        <p class="pie__texto">Plantas, macetas e insumos para tu casa y tu jardín desde 2012.</p>
+      </section>
+
+      <section class="pie__bloque" aria-labelledby="pie-visitanos">
+        <h2 class="pie__titulo" id="pie-visitanos">Visitanos</h2>
+        <address class="pie__texto">
+          Av. de las Plantas 1234, Córdoba Capital<br>
+          <a class="pie__enlace" href="tel:+543510000000">+54 351 000-0000</a><br>
+          <a class="pie__enlace" href="mailto:hola@viverobrotes.com.ar">hola@viverobrotes.com.ar</a>
+        </address>
+      </section>
+
+      <section class="pie__bloque" aria-labelledby="pie-horarios">
+        <h2 class="pie__titulo" id="pie-horarios">Horarios</h2>
+        <p class="pie__texto">Lunes a viernes de 9 a 19 h<br>Sábados de 9 a 14 h</p>
+      </section>
+
+      <nav class="pie__bloque" aria-label="Enlaces del pie">
+        <h2 class="pie__titulo">Navegación</h2>
+        <ul class="pie__lista">
+          <li><a class="pie__enlace" href="catalogo.html">Catálogo</a></li>
+          <li><a class="pie__enlace" href="checkout.html">Mi carrito</a></li>
+          <li><a class="pie__enlace" href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+    <p class="pie__legal">&copy; 2026 Vivero Brotes. Proyecto académico de Aplicaciones Web 1.</p>
+  </footer>
+
+  <div class="carrito-fondo" data-fondo-carrito hidden></div>
+  <aside class="carrito" id="carrito" role="dialog" aria-modal="true" aria-labelledby="carrito-titulo" data-zona-foco tabindex="-1" hidden>
+    <div class="carrito__cabecera">
+      <h2 class="carrito__titulo" id="carrito-titulo">Tu carrito</h2>
+      <button class="carrito__cerrar" type="button" data-cerrar-carrito aria-label="Cerrar carrito">
+        <svg class="icono" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+
+    <ul class="carrito__lista" data-carrito-lista aria-label="Productos en el carrito"></ul>
+
+    <div class="carrito__vacio" data-carrito-vacio>
+      <img src="img/productos/maceta-barro.svg" alt="" width="120" height="120">
+      <p>Tu carrito está vacío.</p>
+      <a class="boton boton--secundario" href="catalogo.html">Ver catálogo</a>
+    </div>
+
+    <div class="carrito__pie" data-carrito-pie hidden>
+      <p class="carrito__subtotal">Subtotal <strong data-carrito-total>$ 0</strong></p>
+      <p class="carrito__nota">El envío se calcula al finalizar la compra.</p>
+      <a class="boton boton--primario boton--bloque" href="checkout.html">Finalizar compra</a>
+      <button class="boton boton--texto" type="button" data-vaciar-carrito>Vaciar carrito</button>
+    </div>
+  </aside>
+
+  <p class="aviso-flotante" data-aviso-flotante role="status" aria-live="polite"></p>
+  <script type="module" src="js/pages/catalogo.js"></script>
+</body>
+</html>

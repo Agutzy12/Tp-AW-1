@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-labelledby="t">
+  <title id="t">Ilustración de una maceta de barro</title>
+  <rect width="300" height="300" fill="#f6eadd"/>
+  <ellipse cx="150" cy="268" rx="95" ry="10" fill="#000" opacity=".08"/>
+  <rect x="67.0" y="120" width="166" height="18" rx="4" fill="#a85d2c"/>
+  <path d="M75.0 138 L225.0 138 L204.0 240 L96.0 240 Z" fill="#c8743a"/>
+  <path d="M100 175 Q150 185 200 175" stroke="#a85d2c" stroke-width="3" fill="none"/>
+  <ellipse cx="150" cy="248" rx="70" ry="10" fill="#a85d2c"/>
+</svg>
