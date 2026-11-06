@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 470" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#1f4d28"/>
+    </marker>
+    <style>
+      .caja{fill:#fff;stroke:#2f6b3a;stroke-width:2}
+      .spa{fill:#eef2e6;stroke:#2f6b3a;stroke-width:2;stroke-dasharray:6 4}
+      .fin{fill:#2f6b3a}
+      .t{font-size:14px;fill:#1f2a1f;text-anchor:middle}
+      .tb{font-size:14px;fill:#fff;text-anchor:middle;font-weight:700}
+      .chico{font-size:12px;fill:#4f5b4a;text-anchor:middle}
+      .linea{stroke:#1f4d28;stroke-width:2;fill:none;marker-end:url(#f)}
+      .error{fill:#fbe9e7;stroke:#b3261e;stroke-width:2}
+    </style>
+  </defs>
+
+  <text x="500" y="26" font-size="18" font-weight="700" fill="#1f4d28" text-anchor="middle">Flujo de usuario: desde el ingreso hasta la compra</text>
+
+  <!-- Fila 1 -->
+  <rect class="fin" x="5" y="70" width="140" height="56" rx="28"/>
+  <text class="tb" x="75" y="103">Inicio</text>
+
+  <rect class="caja" x="175" y="70" width="140" height="56" rx="8"/>
+  <text class="t" x="245" y="96">Catálogo</text>
+  <text class="chico" x="245" y="114">catalogo.html</text>
+
+  <rect class="spa" x="345" y="70" width="140" height="56" rx="8"/>
+  <text class="t" x="415" y="96">Filtrar productos</text>
+  <text class="chico" x="415" y="114">luz, categoría, precio</text>
+
+  <rect class="spa" x="515" y="70" width="140" height="56" rx="8"/>
+  <text class="t" x="585" y="96">Agregar</text>
+  <text class="chico" x="585" y="114">al carrito</text>
+
+  <rect class="spa" x="685" y="70" width="140" height="56" rx="8"/>
+  <text class="t" x="755" y="96">Revisar carrito</text>
+  <text class="chico" x="755" y="114">panel lateral</text>
+
+  <rect class="caja" x="855" y="70" width="140" height="56" rx="8"/>
+  <text class="t" x="925" y="96">Finalizar compra</text>
+  <text class="chico" x="925" y="114">checkout.html</text>
+
+  <path class="linea" d="M145 98H173"/>
+  <path class="linea" d="M315 98H343"/>
+  <path class="linea" d="M485 98H513"/>
+  <path class="linea" d="M655 98H683"/>
+  <path class="linea" d="M825 98H853"/>
+
+  <!-- Volver a seguir comprando -->
+  <path class="linea" d="M755 70V48H585V68" stroke-dasharray="5 4"/>
+  <text class="chico" x="670" y="43">seguir comprando</text>
+
+  <!-- Fila 2 -->
+  <path class="linea" d="M925 126V218"/>
+
+  <rect class="caja" x="855" y="220" width="140" height="56" rx="8"/>
+  <text class="t" x="925" y="246">Completar datos</text>
+  <text class="chico" x="925" y="264">entrega y pago</text>
+
+  <path class="linea" d="M855 248H742"/>
+
+  <polygon points="660,198 740,248 660,298 580,248" fill="#fdf1d8" stroke="#8a5a00" stroke-width="2"/>
+  <text class="t" x="660" y="244">¿Datos</text>
+  <text class="t" x="660" y="262">válidos?</text>
+
+  <path class="linea" d="M580 248H462"/>
+  <text class="chico" x="520" y="240">Sí</text>
+
+  <rect class="fin" x="320" y="220" width="140" height="56" rx="28"/>
+  <text class="tb" x="390" y="246">Confirmación</text>
+  <text class="chico" x="390" y="264" fill="#dcead3" style="fill:#dcead3">pedido N° VB-…</text>
+
+  <path class="linea" d="M660 298V358"/>
+  <text class="chico" x="676" y="330">No</text>
+
+  <rect class="error" x="590" y="360" width="140" height="56" rx="8"/>
+  <text class="t" x="660" y="386">Mostrar errores</text>
+  <text class="chico" x="660" y="404">en cada campo</text>
+
+  <path class="linea" d="M730 388H925V278"/>
+  <text class="chico" x="830" y="380">corregir</text>
+
+  <!-- Referencias -->
+  <rect class="caja" x="20" y="400" width="26" height="18" rx="4"/>
+  <text x="54" y="414" font-size="12" fill="#1f2a1f">Página (MPA)</text>
+  <rect class="spa" x="160" y="400" width="26" height="18" rx="4"/>
+  <text x="194" y="414" font-size="12" fill="#1f2a1f">Acción sin recargar (SPA)</text>
+  <polygon points="350,400 363,409 350,418 337,409" fill="#fdf1d8" stroke="#8a5a00" stroke-width="1.5"/>
+  <text x="372" y="414" font-size="12" fill="#1f2a1f">Decisión</text>
+</svg>

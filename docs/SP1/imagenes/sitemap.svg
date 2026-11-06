@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <style>
+      .pag{fill:#fff;stroke:#2f6b3a;stroke-width:2}
+      .raiz{fill:#2f6b3a}
+      .sec{fill:#eef2e6;stroke:#2f6b3a;stroke-width:1.5;stroke-dasharray:6 4}
+      .noti{fill:#fdf1d8;stroke:#8a5a00;stroke-width:1.5}
+      .t{font-size:14px;fill:#1f2a1f;text-anchor:middle}
+      .tb{font-size:15px;fill:#fff;text-anchor:middle;font-weight:700}
+      .c{font-size:11px;fill:#4f5b4a;text-anchor:middle}
+      .l{stroke:#1f4d28;stroke-width:2;fill:none}
+    </style>
+  </defs>
+
+  <text x="500" y="26" font-size="18" font-weight="700" fill="#1f4d28" text-anchor="middle">Mapa del sitio — Vivero Brotes</text>
+
+  <!-- Raíz -->
+  <rect class="raiz" x="420" y="50" width="160" height="54" rx="10"/>
+  <text class="tb" x="500" y="76">Inicio</text>
+  <text class="c" x="500" y="94" style="fill:#dcead3">index.html</text>
+
+  <!-- Conectores nivel 1 -->
+  <path class="l" d="M500 104V140M130 140H880M130 140V170M420 140V170M690 140V170M880 140V170"/>
+
+  <!-- Secciones del inicio -->
+  <rect class="sec" x="40" y="170" width="180" height="40" rx="8"/>
+  <text class="t" x="130" y="195">Secciones del inicio</text>
+  <path class="l" d="M60 210V435M60 255H80M60 315H80M60 375H80M60 435H80"/>
+  <rect class="sec" x="80" y="235" width="150" height="40" rx="8"/><text class="t" x="155" y="260">Categorías</text>
+  <rect class="sec" x="80" y="295" width="150" height="40" rx="8"/><text class="t" x="155" y="320">Destacados</text>
+  <rect class="sec" x="80" y="355" width="150" height="40" rx="8"/><text class="t" x="155" y="380">Cómo comprar</text>
+  <rect class="sec" x="80" y="415" width="150" height="40" rx="8"/><text class="t" x="155" y="440">Sobre nosotros</text>
+
+  <!-- Catálogo -->
+  <rect class="pag" x="340" y="170" width="160" height="54" rx="8"/>
+  <text class="t" x="420" y="195">Catálogo</text>
+  <text class="c" x="420" y="213">catalogo.html</text>
+  <path class="l" d="M420 224V254"/>
+  <rect class="sec" x="340" y="254" width="160" height="54" rx="8"/>
+  <text class="t" x="420" y="279">Carrito lateral</text>
+  <text class="c" x="420" y="297">panel en todas las páginas</text>
+  <path class="l" d="M420 308V338"/>
+  <rect class="pag" x="340" y="338" width="160" height="54" rx="8"/>
+  <text class="t" x="420" y="363">Finalizar compra</text>
+  <text class="c" x="420" y="381">checkout.html</text>
+  <path class="l" d="M420 392V422"/>
+  <rect class="noti" x="340" y="422" width="160" height="54" rx="8"/>
+  <text class="t" x="420" y="447">Confirmación</text>
+  <text class="c" x="420" y="465">confirmacion.html</text>
+
+  <!-- Contacto -->
+  <rect class="pag" x="610" y="170" width="160" height="54" rx="8"/>
+  <text class="t" x="690" y="195">Contacto</text>
+  <text class="c" x="690" y="213">contacto.html</text>
+  <path class="l" d="M690 224V254"/>
+  <rect class="noti" x="610" y="254" width="160" height="54" rx="8"/>
+  <text class="t" x="690" y="279">Consulta enviada</text>
+  <text class="c" x="690" y="297">mensaje de éxito</text>
+
+  <!-- 404 -->
+  <rect class="noti" x="810" y="170" width="140" height="54" rx="8"/>
+  <text class="t" x="880" y="195">Error 404</text>
+  <text class="c" x="880" y="213">404.html</text>
+
+  <!-- Referencias -->
+  <rect class="pag" x="560" y="500" width="26" height="18" rx="4"/>
+  <text x="594" y="514" font-size="12" fill="#1f2a1f">Página (MPA)</text>
+  <rect class="sec" x="690" y="500" width="26" height="18" rx="4"/>
+  <text x="724" y="514" font-size="12" fill="#1f2a1f">Sección o panel (SPA)</text>
+  <rect class="noti" x="860" y="500" width="26" height="18" rx="4"/>
+  <text x="894" y="514" font-size="12" fill="#1f2a1f">Notificación</text>
+</svg>
